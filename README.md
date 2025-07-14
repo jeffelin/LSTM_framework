@@ -1,8 +1,7 @@
 
 # LSTM Forecasting with Scalecast
 
-> A powerful, modular RNN forecasting framework built with [Scalecast](https://scalecast.readthedocs.io/en/latest/).  
-> Supports univariate, multivariate, probabilistic, dynamic, and transfer learning-based time series forecasting.
+> A powerful, modular RNN forecasting framework built with [Scalecast](https://scalecast.readthedocs.io/en/latest/). It supports univariate, multivariate, probabilistic, dynamic, and transfer learning-based time series forecasting.
 > Note: I am actively working on applying to new use cases and debug issues with code. src is main folder which will be contributed into. 
 
 ## Overview
