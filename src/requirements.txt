@@ -1,0 +1,12 @@
+tensorflow
+tqdm 
+ipython
+ipywidgets 
+numpy 
+pandas
+matplotlib 
+seaborn 
+python-dateutil 
+scalecast 
+pandas_datareader 
+sklearn 
