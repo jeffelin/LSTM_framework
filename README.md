@@ -13,8 +13,6 @@ This repository provides a generalized **LSTM-based RNN template** for forecasti
 - **Dynamic modeling with backtesting**  
 - **Transfer learning across datasets**
 
----
-
 ## Features
 
 ### Univariate Forecasting
@@ -27,8 +25,6 @@ f.set_estimator('lstm')
 f.manual_forecast()
 ````
 
----
-
 ### Multivariate Forecasting
 
 Enhance model performance by incorporating **external regressors** (e.g., weather, holidays, marketing spend).
@@ -39,8 +35,6 @@ f.set_estimator('lstm')
 f.manual_forecast()
 ```
 
----
-
 ### Probabilistic Forecasting
 
 Generate **confidence intervals** around forecasted values to better quantify uncertainty.
@@ -50,8 +44,6 @@ f.eval_cis(level=0.95)
 f.plot('lstm', ci=True)
 ```
 
----
-
 ### Dynamic Forecasting (Backtesting)
 
 Use **rolling or expanding windows** to evaluate forecasting performance over historical splits.
@@ -59,8 +51,6 @@ Use **rolling or expanding windows** to evaluate forecasting performance over hi
 ```python
 f.cross_validate(k=5, method='expanding')
 ```
-
----
 
 ### Transfer Learning
 
@@ -74,21 +64,17 @@ f.set_estimator('lstm')
 f.manual_forecast(reuse_weights=True)
 ```
 
----
-
 ## Example Use Cases
 
 * Forecasting **website traffic**, **electricity demand**, **stock trends**, or **retail sales**
 * Understanding **forecast uncertainty** in decision-making
 * Serving as a **teaching tool** for time series forecasting with deep learning 
 
----
 
 ## Sources
 
 * **Scalecast Docs**: [https://scalecast-examples.readthedocs.io/en/latest/rnn/rnn.html](https://scalecast-examples.readthedocs.io/en/latest/rnn/rnn.html)
 * **Datasets**: [Sun Spots (Kaggle)](https://www.kaggle.com/datasets/robervalt/sunspots)
 
----
 
 
